@@ -1,0 +1,34 @@
+.contenedor{
+    display:flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid gray;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: aqua;
+}
+
+th{
+    text-align: center;
+    border: 1 solid grey;
+    padding: 10px;
+    background-color: darkblue;
+
+}
+
+td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
+tr:hover{
+    background-color: gainsboro;
+}
